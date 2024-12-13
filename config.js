@@ -14,3 +14,4 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",    
 };
+ANTI_LINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK, //TRUE OR FALSE
